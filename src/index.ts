@@ -1,7 +1,7 @@
 import { registerPlugin } from "@capacitor/core";
 // import { FCMPlugin } from "./definitions";
 
-const FCM = registerPlugin<FCMPlugin>(
+const FCM = registerPlugin(
     "FCM",
     {
         web: () => import("./web").then((m) => new m.FCMWeb()),
