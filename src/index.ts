@@ -1,5 +1,5 @@
 import { registerPlugin } from "@capacitor/core";
-import { FCMPlugin } from "./definitions";
+// import { FCMPlugin } from "./definitions";
 
 const FCM = registerPlugin<FCMPlugin>(
     "FCM",
